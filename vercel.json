@@ -1,1 +1,6 @@
-vercel.json
+json{
+  "rewrites": [
+    { "source": "/api/reportei", "destination": "/api/reportei.js" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
